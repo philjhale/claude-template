@@ -11,4 +11,4 @@ high-level bullet points of the changes, followed by a collapsible section:
 </details>
 
 ## Test plan
-a checklist of concrete steps needed to verify the change, each tagged `(automated)` or `(manual)`. Leave every box unticked (`- [ ] ...`) — describe what to verify, don't run it yourself.
+A checklist of concrete steps needed to verify the change, each tagged `(automated)` or `(manual)`. If the automated checks have been run, tick the box, otherwise leave unticked.
