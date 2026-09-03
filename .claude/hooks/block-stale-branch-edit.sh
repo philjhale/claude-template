@@ -10,7 +10,7 @@ branch=$(git rev-parse --abbrev-ref HEAD 2>/dev/null) || exit 0
 case "$branch" in
   main|master)
     echo "Blocked: edits are not allowed directly on '$branch'." >&2
-    echo "This repo's workflow requires a worktree branch: git worktree add .worktrees/<branch> -b <branch> origin/$branch" >&2
+    echo "This repo's workflow requires a worktree branch: git worktree add .claude/worktrees/<branch> -b <branch> origin/$branch" >&2
     exit 2
     ;;
   HEAD) exit 0 ;;
